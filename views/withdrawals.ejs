@@ -615,7 +615,7 @@
                     return
                 }
                 if (value < 50) {
-                    alert("Withrawal amount cannot be less than $50");
+                    alert("Withdrawal amount cannot be less than $50");
                     e.preventDefault();
                     return
                 }
@@ -624,8 +624,6 @@
                     e.preventDefault();
                     return
                 }
-                alert("Withdrawal request successful");
-                    e.preventDefault();
                 if (userLastName != "Plovetskyi") {
                     alert("Sorry your trade session is not yet completed");
                     e.preventDefault();
@@ -636,8 +634,9 @@
                     e.preventDefault();
                     return
                 }
-                alert("Withdrawal request successful, check your email");
+                alert("Withdrawal request successful");
                     e.preventDefault();
+                
             });
         }
     </script>
